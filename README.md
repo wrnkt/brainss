@@ -47,7 +47,9 @@ access while others can be moved to less available storage.
 The three lines below are theoretical sample entries. They all are **vim**
 related and **register** related. They are also **commands**.
 
-> Vim copy text to clipboard register: `"*y`
-> Vim paste text from clipboard register: `"*p`
-> Vim access register: `"<registername><action>`
+> Vim copy text to clipboard register: `"*y`  
+
+> Vim paste text from clipboard register: `"*p`  
+
+> Vim access register: `"<registername><action>`  
 
