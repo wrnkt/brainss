@@ -24,6 +24,17 @@ different ways. Seeing things you learned around the same time, looking for spec
 phrases, and being able to list thought snippets learned by topic and complexity
 will all facilitate learning.  
 
+### Installation
+*Requires Python 3*
+
+1. Create an install folder:
+```
+$ mkdir ~/.brainss
+```
+
+1. Clone this repository `git clone`
+
+2. Run `cd ~/.brainss/installer.py`
 
 ### Usage
 *Remember entries can always be tagged later on. Add them with tags or not.*
@@ -52,4 +63,10 @@ related and **register** related. They are also **commands**.
 > Vim paste text from clipboard register: `"*p`  
 
 > Vim access register: `"<registername><action>`  
+
+
+--------------------------
+### Repo Overview
+
+Using a debian docker image because it comes with Python 2 and 3.
 
